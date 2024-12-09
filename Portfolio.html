@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Thomas Wagner's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" charset="utf-8" defer></script>
+        <link rel='icon' type='image/png' href='webpage_images/Player_Default.png'/>
+    </head>
+    
+    <body class="Home">
+        <header>
+            <div class="icon", onclick="location.href='Portfolio.html'">
+                <img src="webpage_images/Player_Default.png" alt="icon"></img>
+            </div>
+            <div class="header_text">
+                <h1>Thomas Wagner</h1>
+            </div>
+        </header>
+
+        <div class="banner">   
+            <div class="banner_text">   
+                <h1 style="font-size:3vw;">3D Modeler, Digital Artist, and Game Developer</h1>
+            </div>
+            <!--<img src="webpage_images/FlagNinja.png" alt="banner_image">-->
+        </div>
+
+        <div id="artModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="modalImage" src="" alt="Art Piece">
+                <div class="modal-text">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalInfo"></p>
+                    <h4 id="modalbts"></h4>
+                </div>
+            </div>
+        </div>
+
+        <main class="content">
+            <div class="games_section">
+                <h2>Projects:</h2>
+                <ul class="games_list">
+                    <li class="single_game", onclick="location.href='Games_Section.html'">
+                        <img src="banners/WN-Gameplay.gif" alt="Game1">
+                        <h2>Wandering Ninja (2022)</h2>
+                        <p>This project is a small RPG</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="art">
+                <h2>Original Art</h2> 
+                <div id="original-art-gallery" class="art_section"></div>
+                
+                <h2>Fan Art</h2>
+                <div id="fan-art-gallery" class="art_section"></div>
+
+                <script src="artwork.js"></script>
+            </div>
+
+            <div class="about">
+                <h2>Technical Experience:</h2>
+                <ul class="technical">
+                    <li class="technical_bubble">Clip Studio Paint</li>
+                    <li class="technical_bubble">Blockbench</li>
+                    <li class="technical_bubble">Godot</li>
+                    <li class="technical_bubble">C</li>
+                    <li class="technical_bubble">C++</li>
+                    <li class="technical_bubble">Python</li>
+                    <li class="technical_bubble">Python</li>
+                    <li class="technical_bubble">HTML</li>
+                    <li class="technical_bubble">CSS</li>
+                    <li class="technical_bubble">Javascript</li>
+                </ul>
+
+                <h2>About Me:</h2>
+                <div class="about_box"> 
+                    <img src="webpage_images/War_Machine.png" alt="icon"></img> 
+                    <!--<img src="webpage_images/FlagNinja.png" alt="icon"></img>-->  
+                    <div class="about_box_text">
+                        <p>
+                            My name is Thomas Wagner. I like to do artistic stuff like digital illustration, 
+                            3D modeling, and game development. I'm mostly experienced with software like 
+                            Clip Studio Paint, Blockbench, and Godot. I also have quite a bit of experience 
+                            with programming languages like C/C++, Python, and Javascript. 
+                        </p>
+                        <p>
+                            If you think I'd be a good fit for a job, then contact me.
+                        </p>
+                        <button class="playbutton" href="mailto:ranger235711@gmail.com">
+                            <h2>Contact Me</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+</html>
