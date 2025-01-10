@@ -25,6 +25,13 @@
 
     "fanArt": [
         {
+            "src": "artwork/ReclusaStep1.png",
+            "alt": "Reclusa",
+            "title": "Work in progress",
+            "info": "This is currently a work in progress. I will update this later.",
+            "bts": "Blockbench"
+        },
+        {
             "src": "artwork/Connie.gif",
             "alt": "Connie",
             "title": "Connie",
