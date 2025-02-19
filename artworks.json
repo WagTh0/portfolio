@@ -1,6 +1,13 @@
 {    
     "original": [
         {
+            "src": "artwork/Drone.png",
+            "alt": "Drone",
+            "title": "Robot Drone",
+            "info": "A robot drone character for an upcoming project",
+            "bts": "Blockbench"
+        },
+        {
             "src": "artwork/WarMachineVer3.png",
             "alt": "Machine",
             "title": "War Machine",
