@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Thomas Wagner's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" charset="utf-8" defer></script>
+        <link rel='icon' type='image/png' href='webpage_images/Player_Default.png'/>
+    </head>
+    
+    <body class="Home">
+        <header>
+            <div class="icon", onclick="location.href='Portfolio.html'">
+                <img src="webpage_images/Player_Default.png" alt="icon"></img>
+            </div>
+            <div class="header_text">
+                <h1>Thomas Wagner</h1>
+            </div>
+            <div class="topnav">
+                <div class="dropdown">
+                    <button class="nav">Projects</button>
+                    <div class="dropdown-content">
+                        <a onclick="location.href='Games.html'">Games</a>
+                        <a onclick="location.href='Websites.html'">Websites</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav">Artwork</button>
+                    <div class="dropdown-content">
+                        <a onclick="location.href='OriginalArt.html'">Original Art</a>
+                        <a onclick="location.href='FanArt.html'">Fan Art</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="banner">   
+            <div class="banner_text">   
+                <h1 style="font-size:3vw;">Websites</h1>
+            </div>
+            <!--<img src="webpage_images/FlagNinja.png" alt="banner_image">-->
+        </div>
+
+        <div id="artModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="modalImage" src="" alt="Art Piece">
+                <div class="modal-text">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalInfo"></p>
+                    <h4 id="modalbts"></h4>
+                </div>
+            </div>
+        </div>
+
+        <main class="content">
+            <div class="games_section">
+                <ul class="games_list">
+                    <li class="single_game", onclick="location.href='Games_Section.html'">
+                        <img src="banners/WN-Gameplay.gif" alt="Game1">
+                        <h2>Wandering Ninja (2022)</h2>
+                        <p>This project is a small RPG</p>
+                    </li>
+                    <li class="single_game", onclick="location.href='Platformer_Section.html'">
+                        <img src="banners/OshikoEyeCatch_WithoutLogo.png" alt="Game2">
+                        <h2>3D Game (Currently in Development)</h2>
+                        <p>This project is a small 3D platformer</p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </body>
+
+</html>
