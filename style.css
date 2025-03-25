@@ -12,11 +12,25 @@ header
     max-width: 100%;
     display: flex;
     flex-direction: row;
+    z-index: 1;
 }
 
-.header_text
+.icon
 {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon h1
+{
+    margin-right: 10px;
     color: white;
+}
+
+.icon img
+{
+    width: 80px;
+    height: auto;
 }
 
 /* Navbar */
@@ -26,14 +40,15 @@ header
     display: inline-block;
     margin-top: auto;
     margin-bottom: auto;
-    right: -20px;
 }
 
 .nav 
 {
     background-color: rgba(255, 255, 255, 0.5);
-    color: white;
-    padding: 16px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
     font-size: 16px;
     border: none;
 }
@@ -66,12 +81,20 @@ header
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.icon img
-{
-    cursor: pointer;
-    width: 80px;
+/* Screen Adaptation */
+@media only screen and (max-width: 540px) {
+    header {flex-direction: column;}
+    .topnav {display: flex; flex-direction: column;}
+    .nav {width: 100%;}
+    .dropdown-content {width: 100%;}
 }
 
+@media only screen and (min-width: 540px) {
+    header {flex-direction: row;}
+    .topnav {display: block;}
+}
+
+/* ??? */
 .content
 {
     padding: 20px;
