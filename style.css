@@ -492,6 +492,11 @@ h2
     .dropdown-content {width: 100%;}
 }
 
+@media only screen and (max-width: 1225px) {
+    .about_box img {display: none;}
+    .about_box_text {max-width: 1200px;}
+}
+
 @media only screen and (max-width: 790px) {
     .art_piece {max-width: 180px;}
 }
