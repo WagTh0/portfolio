@@ -90,19 +90,6 @@ header
 
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Screen Adaptation */
-@media only screen and (max-width: 630px) {
-    header {flex-direction: column;}
-    .topnav {display: flex; flex-direction: column;}
-    .nav {width: 100%;}
-    .dropdown-content {width: 100%;}
-}
-
-@media only screen and (min-width: 630px) {
-    header {flex-direction: row;}
-    .topnav {display: block;}
-}
-
 /* ??? */
 .content
 {
@@ -495,4 +482,21 @@ h2
 .single_bts {
     display: flex;
     max-width: fit-content;
+}
+
+/* Screen Adaptation */
+@media only screen and (max-width: 630px) {
+    header {flex-direction: column;}
+    .topnav {display: flex; flex-direction: column;}
+    .nav {width: 100%;}
+    .dropdown-content {width: 100%;}
+}
+
+@media only screen and (max-width: 790px) {
+    .art_piece {max-width: 180px;}
+}
+
+@media only screen and (min-width: 630px) {
+    header {flex-direction: row;}
+    .topnav {display: block;}
 }
