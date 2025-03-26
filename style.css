@@ -117,7 +117,7 @@ header
     flex-direction: row;
     flex-wrap: wrap;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banners/OrcaDragonScene.png");
-    height: 50%;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,6 +490,7 @@ h2
     .topnav {display: flex; flex-direction: column;}
     .nav {width: 100%;}
     .dropdown-content {width: 100%;}
+    .banner, .banner_game {height: 200px;}
     .art_piece {width: 50%;}
 }
 
