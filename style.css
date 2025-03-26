@@ -497,16 +497,19 @@ h2
     .about_box img {display: none;}
 }
 
-@media only screen and (min-width: 1500px) {
-    .art_piece {width: 20%;}
+@media only screen and (min-width: 630px) {
+    .art_piece {width: 33.33%;}
 }
 
 @media only screen and (min-width: 945px) {
     .art_piece {width: 25%;}
 }
 
+@media only screen and (min-width: 1500px) {
+    .art_piece {width: 20%;}
+}
+
 @media only screen and (min-width: 630px) {
     header {flex-direction: row;}
     .topnav {display: block;}
-    .art_piece {width: 33.33%;}
 }
