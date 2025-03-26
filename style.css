@@ -489,6 +489,7 @@ h2
     .topnav {display: flex; flex-direction: column;}
     .nav {width: 100%;}
     .dropdown-content {width: 100%;}
+    .art_piece {width: 50%;}
 }
 
 @media only screen and (max-width: 1340px) {
