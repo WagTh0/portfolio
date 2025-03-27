@@ -493,8 +493,9 @@ h2
     .banner, .banner_game {height: 200px;}
     .banner_text {font-size: 75%;}
     .art_piece {width: 50%;}
-    .modal-content {width: 65%;}
+    .modal-content {width: 75%; justify-content: center; align-items: center;}
     .modal-content img {width: 75%; height: auto;}
+    .modal-text {display: none;}
     .single_game {width: 100%;}
 }
 
