@@ -162,7 +162,7 @@ header
     display: flex;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 0 2px;
+    margin: 8px 2px;
     flex-direction: column;
 }
 
