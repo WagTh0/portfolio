@@ -267,7 +267,6 @@ h2
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 .art_piece img
@@ -278,9 +277,10 @@ h2
     border-radius: 10px;
     height: auto;
     display: block;
+    cursor: pointer;
 }
 
-.art_piece:hover
+.art_piece img:hover
 {
     opacity: 0.5;
     transform: translateY(-2px);
