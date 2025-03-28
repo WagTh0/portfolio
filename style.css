@@ -88,6 +88,12 @@ header
 
 .dropdown-content a:hover {background-color: #ddd;}
 
+.dropdown:hover {
+    background-color: #aad;
+    transform: translateY(-2px);
+    z-index: 1;
+}
+
 .dropdown:hover .dropdown-content {display: block;}
 
 /* ??? */
