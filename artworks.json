@@ -32,6 +32,13 @@
 
     "fanArt": [
         {
+            "src": "artwork/Magolor.gif",
+            "alt": "Magolor",
+            "title": "Magolor",
+            "info": "A low poly 3D model of Magolor from the Kirby series.",
+            "bts": "Blockbench"
+        },
+        {
             "src": "artwork/Reclusa.gif",
             "alt": "Reclusa",
             "title": "Reclusa",
