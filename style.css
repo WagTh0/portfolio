@@ -498,6 +498,29 @@ h2
     max-width: fit-content;
 }
 
+/*Under Construction Box*/
+.construction_box {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.construction_box h1 {
+    color: white;
+    max-width: 80%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.construction_box img {
+    max-width: 200px;
+}
+
 /* Screen Adaptation */
 @media only screen and (max-width: 630px) {
     header {flex-direction: column;}
@@ -511,6 +534,7 @@ h2
     .modal-content img {width: 75%; height: auto;}
     .modal-text {display: none;}
     .single_game {width: 100%;}
+    .construction_box {flex-direction: column;}
 }
 
 @media only screen and (max-width: 1340px) {
