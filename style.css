@@ -103,24 +103,12 @@ header
 .content
 {
     padding: 20px;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        transform: translateY(0px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(-15px);
-        opacity: 1;
-    }
-}
-
-.banner, .banner_game 
+.banner, .banner_game
 {
     display: flex;
     flex-direction: row;
@@ -131,15 +119,10 @@ header
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    animation: fadeInBanner ease 1s;
+    animation-iteration-count: 1;
 }
-/*
-.banner img
-{
-    width: 150px;
-    height: auto;
-    margin: 20px;
-}
-*/
+
 .banner_game
 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banners/WN-Gameplay.gif");
@@ -154,6 +137,31 @@ header
     transform: translate(-50%, -50%);
     color: white;
     font-size: 100%;
+}
+
+/* Animations */
+@keyframes fadeInAnimation {
+    0% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInBanner {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 /* Games Section */
