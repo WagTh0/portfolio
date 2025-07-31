@@ -32,6 +32,13 @@
 
     "fanArt": [
         {
+            "src": "artwork/NekomataGif.gif",
+            "alt": "Nekomata",
+            "title": "Nekomata",
+            "info": "A low poly 3D model of Nekomata from Zenless Zone Zero.",
+            "bts": "Blockbench"
+        },
+        {
             "src": "artwork/Magolor.gif",
             "alt": "Magolor",
             "title": "Magolor",
