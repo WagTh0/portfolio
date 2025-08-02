@@ -36,7 +36,7 @@
             "alt": "Nekomata",
             "title": "Nekomata",
             "info": "A low poly 3D model of Nekomata from Zenless Zone Zero.",
-            "bts": "Blockbench"
+            "bts": "Blockbench, GIMP, Canva"
         },
         {
             "src": "artwork/Magolor.gif",
@@ -89,4 +89,5 @@
         }
     ]
 }
+
 
