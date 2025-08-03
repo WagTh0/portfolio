@@ -32,7 +32,7 @@
 
     "fanArt": [
         {
-            "src": "artwork/NekomataCombinedGif2.gif",
+            "src": "artwork/NekomataCombinedGif2F.gif",
             "alt": "Nekomata",
             "title": "Nekomata",
             "info": "A low poly 3D model of Nekomata from Zenless Zone Zero.",
@@ -89,5 +89,6 @@
         }
     ]
 }
+
 
 
