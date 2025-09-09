@@ -21,3 +21,20 @@ function closePopup() {
     modal.style.display = 'none';
     document.body.style.overflow = ''; // Re-enable scrolling on the main page
 }
+
+function loadHeader() {
+  fetch("navbar.html")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to load header");
+      }
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById("header-placeholder").innerHTML = data;
+    })
+    .catch(error => console.error(error));
+}
+
+// Run when DOM is ready
+document.addEventListener("DOMContentLoaded", loadHeader);
