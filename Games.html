@@ -9,41 +9,12 @@
     </head>
     
     <body class="Home">
-        <header>
-            <div class="icon", onclick="location.href='index.html'">
-                <img src="webpage_images/Player_Default.png" alt="icon"></img>
-                <h1>Thomas Wagner</h1>
-            </div>
-            <div class="topnav">
-                <div class="dropdown">
-                    <button class="nav">
-                        <p>Projects</p>
-                        <img src="webpage_images/gameboy.png">
-                    </button>
-                    <div class="dropdown-content">
-                        <a onclick="location.href='Games.html'">Games</a>
-                        <a onclick="location.href='Websites.html'">Websites</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="nav">
-                        <p>Artwork</p>
-                        <img src="webpage_images/paintbrush.png">
-                    </button>
-                    <div class="dropdown-content">
-                        <a onclick="location.href='OriginalArt.html'">Original Art</a>
-                        <a onclick="location.href='FanArt.html'">Fan Art</a>
-                        <a onclick="location.href='UnderConstructionPage.html'">Animations</a>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div id="header-placeholder"></div>
 
         <div class="banner">   
             <div class="banner_text">   
-                <h1>Games</h1>
+                <h1 style="font-size:3vw;">Games</h1>
             </div>
-            <!--<img src="webpage_images/FlagNinja.png" alt="banner_image">-->
         </div>
 
         <div id="artModal" class="modal">
@@ -60,18 +31,15 @@
 
         <main class="content">
             <div class="games_section">
-                <h2>Games:</h2>
-                <div class="games_list">
-                    <div class="single_game", onclick="location.href='Games_Section.html'">
+                <ul class="games_list">
+                    <li class="single_game", onclick="location.href='Games_Section.html'">
                         <img src="banners/WN-Gameplay.gif" alt="Game1">
                         <h2>Wandering Ninja (2022)</h2>
                         <p>This project is a small RPG</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </main>
     </body>
 
 </html>
-
-
