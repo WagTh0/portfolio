@@ -1,8 +1,10 @@
 function renderArtwork(galleryId, artworkArray) {
     const gallery = document.getElementById(galleryId);
+    if (!gallery) return;
+    
     artworkArray.forEach(art => {
         const artDiv = document.createElement("div");
-        artDiv.className = "art_piece";
+        artDiv.className = "art_piece"
         artDiv.innerHTML = `
             <img 
                 src="${art.src}" 
@@ -20,7 +22,7 @@ function renderArtwork(galleryId, artworkArray) {
 fetch('artworks.json')
     .then(response => response.json())
     .then(data => {
-        renderArtwork("original-art-gallery", data.original);
         renderArtwork("fan-art-gallery", data.fanArt);
+        renderArtwork("original-art-gallery", data.original);
     })
     .catch(error => console.error('Error loading artwork data:', error));
