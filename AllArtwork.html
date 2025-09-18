@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Artwork</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" charset="utf-8" defer></script>
+        <link rel='icon' type='image/png' href='webpage_images/Player_Default.png'/>
+    </head>
+    
+    <body class="Home">
+        <div id="header-placeholder"></div>
+
+        <div class="banner">   
+            <div class="banner_text">   
+                <h1 id="art-title" style="font-size:3vw;"></h1>
+            </div>
+        </div>
+
+        <div id="artModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="modalImage" src="" alt="Art Piece">
+                <div class="modal-text">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalInfo"></p>
+                    <h4 id="modalbts"></h4>
+                </div>
+            </div>
+        </div>
+
+        <main class="content">
+            <div class="art">
+                <div id="art-gallery" class="art_section"></div>
+                <script src="artwork.js"></script>
+            </div>
+        </main>
+    </body>
+
+</html>
