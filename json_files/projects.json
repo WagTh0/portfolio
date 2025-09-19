@@ -1,0 +1,21 @@
+{    
+    "games": [
+        {
+            "src": "banners/WN-Gameplay.gif",
+            "alt": "wanderingninja",
+            "title": "Wandering Ninja (2022)",
+            "info": "This project is a small RPG",
+            "link": "Games_Section.html"
+        }
+    ],
+
+    "websites": [
+        {
+            "src": "screenshots/SamOregon.PNG",
+            "alt": "samphoto",
+            "title": "Samuel Wagner Photography",
+            "info": "This project is a website showing photos of various places in the Pacific Northwest",
+            "link": "Website_Section.html"
+        }
+    ]
+}
