@@ -104,7 +104,7 @@ header
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banners/OrcaDragonScene.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banners/OrcaDragonScene.png");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,12 +116,12 @@ header
 
 .banner_game
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banners/WN-Gameplay.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banners/WN-Gameplay.gif");
 }
 
 .banner_website
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screenshots/photo/SamOregon.PNG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/screenshots/photo/SamOregon.PNG");
 }
 
 .banner_text
