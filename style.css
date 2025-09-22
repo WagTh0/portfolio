@@ -121,7 +121,7 @@ header
 
 .banner_website
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screenshots/SamOregon.PNG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screenshots/photo/SamOregon.PNG");
 }
 
 .banner_text
@@ -562,4 +562,3 @@ h2
     header {flex-direction: row;}
     .topnav {display: block;}
 }
-
