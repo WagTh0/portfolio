@@ -11,7 +11,7 @@
 
     "websites": [
         {
-            "src": "screenshots/SamOregon.PNG",
+            "src": "screenshots/photo/SamOregon.PNG",
             "alt": "samphoto",
             "title": "Samuel Wagner Photography",
             "info": "This project is a website showing photos of various places in the Pacific Northwest",
