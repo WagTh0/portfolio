@@ -23,7 +23,7 @@ function closePopup() {
 }
 
 function loadHeader() {
-  fetch("navbar.html")
+  fetch("../html_files/navbar.html")
     .then(response => {
       if (!response.ok) {
         throw new Error("Failed to load header");
