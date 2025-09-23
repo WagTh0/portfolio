@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const title = document.getElementById("art-title");
     const gallery = document.getElementById("art-gallery");
 
-    fetch('json_files/artworks.json')
+    fetch('../json_files/artworks.json')
         .then(response => response.json())
         .then(data => {
             if (type === "original") {
@@ -40,9 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 title.textContent = "Artwork";
                 gallery.innerHTML = "<p>Please choose a category.</p>";
-            }
-            
+            }           
         })
         .catch(error => console.error('Error loading artwork data:', error));
 });
-
