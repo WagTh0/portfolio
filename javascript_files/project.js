@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const title = document.getElementById("project-title");
     const heading = document.getElementById("section-heading");
 
-    fetch("json_files/projects.json")
+    fetch("../json_files/projects.json")
         .then(response => response.json())
         .then(data => {
             if (type === "games") {
