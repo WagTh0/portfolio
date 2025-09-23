@@ -9,7 +9,35 @@
     </head>
     
     <body class="Home">
-        <div id="header-placeholder"></div>
+        <header>
+            <div class="icon", onclick="location.href='index.html'">
+                <img src="images/webpage_images/Player_Default.png" alt="icon"></img>
+                <h1>Thomas Wagner</h1>
+            </div>
+            <div class="topnav">
+                <div class="dropdown">
+                    <button class="nav">
+                        <p>Projects</p>
+                        <img src="images/webpage_images/gameboy.png">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="html_files/Projects.html?type=games">Games</a>
+                        <a href="html_files/Projects.html?type=websites">Websites</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav">
+                        <p>Artwork</p>
+                        <img src="images/webpage_images/paintbrush.png">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="html_files/AllArtwork.html?type=original">Original Art</a>
+                        <a href="html_files/AllArtwork.html?type=fan">Fan Art</a>
+                        <a onclick="location.href='html_files/UnderConstructionPage.html'">Animations</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <div class="banner">   
             <div class="banner_text">   
@@ -22,17 +50,17 @@
                 <h2>Examples of my Work:</h2>
                 <div class="games_list">
                     <div class="single_game", onclick="location.href='html_files/Projects.html?type=games'">
-                        <img src="../images/banners/WN-Gameplay.gif" alt="games_area">
+                        <img src="images/banners/WN-Gameplay.gif" alt="games_area">
                         <h2>Games</h2>
                         <p>Individual game projects</p>
                     </div>
                     <div class="single_game", onclick="location.href='html_files/AllArtwork.html?type=original'">
-                        <img src="../images/banners/OrcaDragonScene.png" alt="og_art">
+                        <img src="images/banners/OrcaDragonScene.png" alt="og_art">
                         <h2>Original Art</h2>
                         <p>Artwork based on my own original characters and ideas</p>
                     </div>
                     <div class="single_game", onclick="location.href='html_files/AllArtwork.html?type=fan'">
-                        <img src="../images/artwork/fanart/NekomataCombinedGif2F.gif" alt="fan_art">
+                        <img src="images/artwork/fanart/NekomataCombinedGif2F.gif" alt="fan_art">
                         <h2>Fan Art</h2>
                         <p>Artwork based on some of my favorite games and shows</p>
                     </div>
@@ -76,4 +104,3 @@
     </body>
 
 </html>
-
