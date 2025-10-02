@@ -1,10 +1,17 @@
 {    
     "original": [
         {
+            "src": "../images/artwork/originalart/ImprovedWanderingNinjaConcept.gif",
+            "alt": "IWNC",
+            "title": "Wandering Ninja 3D Display",
+            "info": "A 3D display for my independent game 'Wandering Ninja', complete with new designs for some of the characters.",
+            "bts": "Blockbench"
+        },
+        {
             "src": "../images/artwork/originalart/Drone.gif",
             "alt": "Drone",
             "title": "Robot Drone",
-            "info": "A robot drone character for an upcoming project",
+            "info": "A robot drone character for an upcoming project.",
             "bts": "Blockbench"
         },
         {
