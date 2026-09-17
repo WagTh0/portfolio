@@ -39,6 +39,27 @@
 
     "fanArt": [
         {
+            "src": "../images/artwork/fanart/3DKirby-BG.gif",
+            "alt": "3D Kirby",
+            "title": "Kirby",
+            "info": "A low poly 3D model of Kirby from the Kirby series",
+            "bts": "Blockbench, GIMP, Canva"
+        },
+        {
+            "src": "../images/artwork/fanart/Kirby35-Dreamland.gif",
+            "alt": "Kirby's Dreamland",
+            "title": "Kirby's Dreamland",
+            "info": "A 3D display of Kirby's Dreamland",
+            "bts": "Blockbench"
+        },
+        {
+            "src": "../images/artwork/fanart/Creeper1.gif",
+            "alt": "Creeper",
+            "title": "Creeper",
+            "info": "A 3D model of a Minecraft Creeper in the style of merch made by JINX",
+            "bts": "Blockbench, Canva"
+        },
+        {
             "src": "../images/artwork/fanart/NekomataCombinedGif2F.gif",
             "alt": "Nekomata",
             "title": "Nekomata",
