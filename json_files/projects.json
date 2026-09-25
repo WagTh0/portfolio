@@ -13,6 +13,13 @@
             "title": "Flying Penguin (2025)",
             "info": "This project is a small 3D game",
             "link": "../html_files/Penguin_Section.html"
+        },
+        {
+            "src": "../images/screenshots/poke/pokeASDemo.PNG",
+            "alt": "pokemondemo",
+            "title": "Pokemon Demo (2026)",
+            "info": "This project is a small 3D fan game",
+            "link": "../html_files/Poke_Section.html"
         }
     ],
 
