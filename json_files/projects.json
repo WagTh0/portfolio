@@ -6,6 +6,13 @@
             "title": "Wandering Ninja (2022)",
             "info": "This project is a small RPG",
             "link": "../html_files/Games_Section.html"
+        },
+        {
+            "src": "../images/banners/FlyingPenguin.PNG",
+            "alt": "flyingpenguin",
+            "title": "Flying Penguin (2025)",
+            "info": "This project is a small 3D game",
+            "link": "../html_files/Penguin_Section.html"
         }
     ],
 
